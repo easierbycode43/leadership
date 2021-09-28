@@ -3,6 +3,6 @@
     "sass": "^1.42.1"
   },
   "scripts": {
-		"build:pages": "rimraf docs && parcel build index.html --no-minify --out-dir docs"
+		"build:pages": "rimraf docs && parcel build index.html --no-minify --out-dir docs --public-url /leadership/"
 	}
 }
