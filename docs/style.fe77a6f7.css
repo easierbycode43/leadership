@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700&display=swap");
+.leadershipHeader {
+  font-size: 24px;
+  line-height: 30px;
+  color: #4763d3;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+}
+
+.leadershipTile p {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 400;
+}
+
+.leadershipBody {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 400;
+}
+
+.tabTitle {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 700;
+  font-family: "adelle-sans", sans-serif;
+}
+
+.filterTitle {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: "adelle-sans", sans-serif;
+  letter-spacing: 1px;
+}
+
+.leadershipTile h3 {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: "adelle-sans", sans-serif;
+}
+
+.tabContent a:focus-visible, .tabTitle:focus-visible {
+  outline-color: #fff;
+  outline-offset: 12px;
+  outline-style: solid;
+  outline-width: 1px;
+}
+.tabContent a:focus, .tabTitle:focus {
+  outline-offset: 10px;
+  outline-color: #fff;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  margin: 0;
+}
+
+h1 {
+  font-family: "Rubik", sans-serif;
+  text-shadow: 0 1px #000060;
+}
+
+.leadershipWrapper {
+  background-color: #4763d3;
+  padding: 48px 24px 48px 24px;
+}
+
+.leadershipInnerWrapper {
+  max-width: 1232px;
+  margin: 0 auto;
+}
+
+.leadershipHeader {
+  max-width: 1040px;
+  color: #edffff;
+}
+
+.leadershipBody {
+  max-width: 720px;
+  color: #fff;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+.filterHeader {
+  padding-top: 48px;
+  color: #fff;
+}
+
+.filterTitle {
+  padding-bottom: 8px;
+}
+
+.tabTitles {
+  display: flex;
+  flex-direction: column;
+  border-top: 1.25px solid #fff;
+  border-bottom: 1.25px solid #fff;
+  padding: 29px 0px 0px 0px;
+  margin: 0;
+  cursor: pointer;
+  list-style-type: none;
+}
+
+.tabTitle {
+  margin-right: auto;
+  margin-bottom: 32px;
+}
+
+.active.tabTitle {
+  border-bottom: 2px solid #fff;
+}
+
+.leadershipTile {
+  color: #edffff;
+}
+.tabContent {
+  border-top: 1.25px solid #edffff;
+  display: grid;
+  row-gap: 48px;
+  padding-top: 48px;
+}
+.tabContent a {
+  text-decoration: none;
+}
+
+.tileTop {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.tileArrowWrapper {
+  max-width: 49px;
+  margin: 0px 0px 0px 8px;
+}
+
+.tileArrow {
+  display: block;
+}
+
+@media (min-width: 992px) {
+  .leadershipWrapper {
+    padding: 96px 104px 96px 104px;
+  }
+
+  .leadershipBody {
+    padding-top: 32px;
+  }
+
+  .filterHeader {
+    padding-top: 96px;
+  }
+
+  .filterTitle {
+    padding-bottom: 17px;
+  }
+
+  .tabTitles {
+    flex-direction: row;
+    border-bottom: none;
+    padding: 22px 0px 0px 0px;
+    margin-right: 0px;
+  }
+
+  .tabTitle {
+    margin-bottom: 0px;
+  }
+
+  .tabContent {
+    border-top: 1.25px solid #fff;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 72px 85px;
+    padding-top: 84px;
+  }
+}
+
+/*# sourceMappingURL=/style.fe77a6f7.css.map */

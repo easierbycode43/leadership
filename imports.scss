@@ -1,0 +1,215 @@
+$nav-max-width: 1216px;
+$alert-height: 30px;
+$content-max-width: 1232px;
+$bg-photo-max-width: 1200px;
+$introBody-max-width: 720px;
+$header-bg-max-width: 1040px;
+$inline-photo-max-width: 688px;
+$body-max-width: 720px;
+$header-max-width: 720px;
+$nav-card-min-width: 592px;
+$body-semi-size: 18px;
+$body-semi-line: 18px;
+$body-medium-size: 18px;
+$body-medium-line: 18px;
+$extra-bold-weight: 800;
+$bold-weight: 700;
+$semi-weight: 600;
+$regular-weight: 400;
+$numbers-size: 14px;
+$numbers-line: 20px;
+$body-small-size: 16px;
+$body-small-line: 26px;
+$footer-link-height: 72px;
+$adelle: "adelle",serif;
+$adelle-sans: "adelle-sans",sans-serif;
+$black: #000;
+$blue: #4763d3;
+$dark-blue: #172663;
+$white: #fff;
+$periwinkle: #f4f6fc;
+$about-primary: #fee085;
+$about-secondary: #fffaeb;
+$get-involved-primary: #f66;
+$get-involved-secondary: #fff3f3;
+$services-primary: #edc9ff;
+$services-secondary: #fcf5ff;
+$news-primary: #16e0bd;
+$donate-primary: #172663;
+
+$nav-height: 124px;
+$report-nav-height: 60px;
+$halfPage-photo-max-width: 288px;
+$related-article-img-height: 160px;
+$body-size: 16px;
+$body-line: 26px;
+$heading-size: 24px;
+$heading-line: 30px;
+$h3-size: 16px;
+$h3-line: 26px;
+$hero-heading-size: 24px;
+$hero-heading-line: 30px;
+$headline-small-size: 18px;
+$headline-small-line: 26px;
+$headline-size: 24px;
+$headline-line: 30px;
+$introBody-size: 16px;
+$introBody-line: 26px;
+$subheader-size: 14px;
+$subheader-line: 22px;
+$primary-button-height: 96px;
+$primary-button-width: 224px;
+$primary-button-size: 16px;
+$primary-button-line: 20px;
+$primary-button-weight: 800;
+$secondary-button-height: 80px;
+$secondary-button-width: 208px;
+$secondary-button-size: 16px;
+$secondary-button-line: 20px;
+$body-small-min-height: 48px;
+$articleCard-max-width: 288px;
+$articleCard-min-height: 514px;
+$nav-card-height: 334px;
+
+
+%bg-header {
+    font-size: $heading-size;
+    line-height: $heading-line;
+    color: $blue;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: $bold-weight;
+}
+
+%hero-heading {
+    font-size: $hero-heading-size;
+    line-height: $hero-heading-line;
+    font-family: $adelle;
+    font-weight: $bold-weight;
+}
+
+%h1 {
+    font-size: $heading-size;
+    line-height: $heading-line;
+    font-family: $adelle;
+    font-weight: $bold-weight;
+}
+
+%introBody {
+    font-size: $introBody-size;
+    line-height: $introBody-line;
+    font-family: $adelle-sans;
+    font-weight: $regular-weight;
+}
+
+%bodySmall { 
+    font-size: $body-small-size;
+    line-height: $body-small-line;
+    font-family: $adelle-sans;
+    font-weight: $regular-weight;
+}
+
+%h3 {
+    font-size: $h3-size;
+    line-height: $h3-line;
+    font-family: $adelle-sans;
+    font-weight: $bold-weight 
+}
+
+%body {
+    font-size: $body-size;
+    line-height: $body-line;
+    font-family: $adelle-sans;
+    font-weight: $regular-weight;
+}
+
+%bodyBold {
+    font-size: $body-size;
+    line-height: $body-line;
+    font-weight: $bold-weight;
+    font-family: $adelle-sans;
+}
+
+%primary-button-text {
+    font-size: $primary-button-size;
+    line-height: $primary-button-line;
+    font-weight: $primary-button-weight;
+    font-family: $adelle-sans;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 1px;
+}
+
+%secondary-button-text {
+    font-size: $secondary-button-size;
+    line-height: $secondary-button-line;
+    font-family: $adelle-sans;
+    font-weight: $regular-weight;
+    text-decoration: none;
+}
+
+%subheader {
+    letter-spacing: 1px;
+    font-size: $subheader-size;
+    line-height: $subheader-line;
+    font-weight: $bold-weight;
+    font-family: $adelle-sans;
+    text-transform: uppercase;
+}
+
+%mobile-nav-links {
+    font-size: $body-semi-size;
+    line-height: $body-semi-line;
+    font-family: $adelle-sans;
+    font-weight: $semi-weight;
+}
+
+%numbers {
+    font-size: $numbers-size;
+    line-height: $numbers-line;
+    font-weight: $semi-weight;
+    font-family: $adelle-sans;
+    letter-spacing: 1px;
+}
+
+%headline {
+    font-size: $headline-size;
+    line-height: $headline-line;
+    font-weight: $bold-weight;
+    font-family: $adelle-sans;
+}
+
+%smallTileHeadline {
+    font-size: $headline-small-size;
+    line-height: $headline-small-line;
+    font-family: $adelle-sans;
+    font-weight: $bold-weight;
+}
+
+%focusWhite {
+    &:focus-visible {
+        outline-color: $white;
+        outline-offset: 12px;
+        outline-style: solid;
+        outline-width: 1px;
+    }
+
+    &:focus {
+        outline-offset: 10px;
+        outline-color: $white;
+    }
+}
+
+%focusBlue {
+    &:focus-visible {
+        outline-color: $blue;
+        outline-offset: 12px;
+        outline-style: solid;
+        outline-width: 1px;
+    }
+
+    &:focus {
+        outline-offset: 10px;
+    }
+}
